@@ -4,6 +4,7 @@
 	<title>Home</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link rel="icon" type="img/jpg" href="img/webIcon.jpg">
+	<link rel="stylesheet" href="css\style.css">
 </head>
 <body>
 	<header>
@@ -11,106 +12,94 @@
 	</header>
 	<main>
 		<div class = "img-name">
-			<table>
-				<tr>
-					<td>
-						<img src="img/portrait.png" alt="self image" width="200px" height="300px">
-					</td>
-					<td>
-						<h1>Trương Thị Kiều Anh</h1>
-						<h2>Intern</h2>
-					</td>
-				</tr>
-			</table>
+			<div>
+				<img src="img/portrait.png" alt="self image" width="200px" height="300px">
+			</div>
+			<div>
+				<h1>Trương Thị Kiều Anh</h1>
+				<h2>Intern</h2>	
+			</div>
 		</div>
 		<div class = "information">
-			<table>
-				<tr>
-					<td>
-						<div class="about-me">
-							<h3>About Me</h3>
-							<hr>
-							<p>I 'm learning Computer Sicence in UET seeking of an intership where I can learn experience of work in real life. I'm willing to learn knowledge and ideas at professional level.</p>
+			<section>
+				<div class="about-me">
+					<h3 class="header-info">About Me</h3>
+					<div class="content">
+						<p>I 'm learning Computer Sicence in UET seeking of an intership where I can learn experience of work in real life. I'm willing to learn knowledge and ideas at professional level.</p>
+					</div>	
+				</div>
+				<div class="expertise">
+					<h3 class="header-info">Expertise</h3>
+					<div class="content">
+						<div class="progress">
+							<label for="problem-solving">Problem Solving</label>
+							<progress value="45" max="100" id="problem-solving"></progress><br>
+							<label for="Design">Design</label>
+							<progress value="25" max="100" id="Design"></progress><br>
+							<label for="en">English</label>
+							<progress value="65" max="100" id="en"></progress><br>
 						</div>
-					</td>
-					<td rowspan="2">
-						<div class = "work-experience">
-							<h3>Work Experience</h3>
-							<hr>
-							<div class="expform">
-								<h4 class="expform-heading">ACHIVEMENT</h4>
-								<p class="expform-info"><b>Leader Flyer in Galaxy UET</b></p>
-								<p class="add-info"><i>UET  | 2021-2022 - present</i></p>
-								<p class="expform-info"><b>Consolation Prize in Science Research belong to University</b></p>
-								<p class="add-info"><i>UET  | 2021-2022 - present</i></p>
-							</div>
-
-							<div class="expform">
-								<h4 class="expform-heading">MY PROJECT</h4>
-								<p class="expform-info">
-									<i class="fa-brands fa-github"><b> Github: </b><a href="https://github.com/kieu23092016">kieu23092016</a></i>
-								</p>
-								<p class="add-info"><i>Dictionary project, Bomberman game, Mordern Jura web, GAN implement, ...</i></p>
-								
-								<p class="expform-info"><i class="fa-brands fa-google-drive"></i><b>DRIVE</b><a href="https://github.com/kieu23092016">kieu23092016</a></p>
-								<p class="add-info"><i>Include: <abbr title="Object Oriented Analysis and Design">OOAD</abbr> project: Bus tracking app, Paper research, Powerpoint presentation,... </i></p>
-							</div>
-
-							<div class="expform">
-								<h4 class="expform-heading">SKILLS</h4>
-								<p class="expform-info">
-									<b>Object Oriented Programming</b>
-								</p>
-								<ul class="add-list">
-									<li>Fundamental knowledge about Java OOP</li>
-									<li>Design pattern</li>
-									<li>Fundamental knowledge about Object-Oriented Analysis And Design </li>
-								</ul>
-								<p class="expform-info">
-									<b>Web Development</b>
-								</p>
-								<ul class="add-list">
-									<li>Fundamental knowledge in HTML, CSS, Flask,..</li>
-									<li>Web project (Group) </li>
-								</ul>
-							</div>
-						</div>	
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="expertise">
-							<h3>Expertise</h3>
-							<hr>
-							<div class="progress">
-								<label for="problem-solving">Problem Solving</label>
-								<progress value="45" max="100" id="problem-solving"></progress><br>
-								<label for="Design">Design</label>
-								<progress value="25" max="100" id="Design"></progress><br>
-								<label for="en">English</label>
-								<progress value="65" max="100" id="en"></progress><br>
-							</div>
-							<p><b>Education: </b>UET. GPA:...</p>
-							<table>
-								<caption>LANGUAGE AND SOFTWARE</caption>
-								<tr>
-									<td><img src="img/python.png" width="50px" height="50px"></td>
-									<td><img src="img/flask.png" width="50px" height="50px"></td>
-									<td><img src="img/pytorch.png" width="50px" height="50px"></td>
-								</tr>
-								<tr>
-									<td><img src="img/java.png" width="50px" height="50px"></td>
-									<td><img src="img/html.png" width="50px" height="50px"></td>
-									<td><img src="img/mysql.png" width="50px" height="50px"></td>
-								</tr>
-							</table>
+						<p><b>Education: </b>UET. GPA:...</p>
+						<table>
+							<caption>LANGUAGE AND SOFTWARE</caption>
+							<tr>
+								<td><img src="img/python.png" width="50px" height="50px"></td>
+								<td><img src="img/flask.png" width="50px" height="50px"></td>
+								<td><img src="img/pytorch.png" width="50px" height="50px"></td>
+							</tr>
+							<tr>
+								<td><img src="img/java.png" width="50px" height="50px"></td>
+								<td><img src="img/html.png" width="50px" height="50px"></td>
+								<td><img src="img/mysql.png" width="50px" height="50px"></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</section>
+			<section class = "work-experience">
+				<h3 class="header-info">Work Experience</h3>
+					<div class="content">
+						<div class="expform">
+							<h4>ACHIVEMENT</h4>
+							<p class="expform-info">Leader Flyer in Galaxy UET</p>
+							<p class="add-info">UET  | 2021-2022 - present</p>
+							<p class="expform-info">Consolation Prize in Science Research belong to University</p>
+							<p class="add-info">UET  | 2021-2022 - present</p>
 						</div>
-					</td>
-				</tr>
-			</table>
+
+						<div class="expform">
+							<h4>MY PROJECT</h4>
+							<p class="expform-info">
+								<i class="fa-brands fa-github"></i>  Github: <a href="https://github.com/kieu23092016">kieu23092016</a>
+							</p>
+							<p class="add-info">Dictionary project, Bomberman game, Mordern Jura web, GAN implement, ...</p>
+							
+							<p class="expform-info"><i class="fa-brands fa-google-drive"></i>  DRIVE: <a href="https://github.com/kieu23092016">kieu23092016</a></p>
+							<p class="add-info">Include: <abbr title="Object Oriented Analysis and Design">OOAD</abbr> project: Bus tracking app, Paper research, Powerpoint presentation,...</p>
+						</div>
+
+						<div class="expform">
+							<h4>SKILLS</h4>
+							<p class="expform-info">
+								Object Oriented Programming
+							</p>
+							<ul class="add-list">
+								<li>Fundamental knowledge about Java OOP</li>
+								<li>Design pattern</li>
+								<li>Fundamental knowledge about Object-Oriented Analysis And Design </li>
+							</ul>
+							<p class="expform-info">
+								Web Development
+							</p>
+							<ul class="add-list">
+								<li>Fundamental knowledge in HTML, CSS, Flask,..</li>
+								<li>Web project (Group) </li>
+							</ul>
+						</div>
+					</div>
+			</section>	
 		</div>
 	</main>
-	<hr>
 	<footer>
 		<h3>Contact: 0977777777</h3>
 		<p>kieuanh23092016@gmail.com</p>

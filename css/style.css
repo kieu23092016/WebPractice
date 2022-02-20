@@ -1,0 +1,92 @@
+@font-face{
+	font-family: computerSayNo;
+	src:  url('../font/computerSaysNo.ttf');
+}
+@font-face{
+	font-family: PodkovaExtraBold;
+	src: url('../font/Podkova-ExtraBold.ttf');
+}
+@font-face{
+	font-family: dmSans;
+	src: url('../font/DMSans-Regular.ttf');
+}
+@font-face{
+	font-family: sansPro;
+	src: url('../font/source-sans-pro.ttf');
+}
+
+body {
+	font-family: dmSans;
+	font-size: 14px;
+	margin: 0% 20%;
+}
+.img-name div{
+	display: inline-block;
+	text-align: right;
+}
+.img-name h2{
+	color: #043A8A;
+	font-family: computerSayNo;
+	font-size: 72px;
+	text-shadow: 3px 2px #90aacb;
+}
+.img-name h1{
+	font-family: computerSayNo;
+	font-size: 72px;
+}
+.about-me{
+	background-color: #f9d5a7;
+	border: 2px solid #000;
+}
+.header-info {
+	background-color: #fffdf3;
+	font-family: PodkovaExtraBold;
+	font-size: 20.9px;
+	border: 2px solid #000;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	margin: 0px;
+	box-shadow: 3px 6px #000;
+}
+.work-experience{
+	background-color: #90aacb;
+}
+.expertise{
+	margin-top: 5%;
+	background-color: #fff6d2;
+	border: 2px solid #000;
+}
+.expform h4{
+	color: #fffdf3;
+}
+.add-info{
+	font-style: italic;
+}
+.expform-info{
+	font-weight: bold;
+}
+.content{
+	padding: 10%;
+}
+.information section{
+	display: inline-block;
+	width: 45%;
+	float: left;
+	margin-left: 4%;
+}
+footer{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #000;
+}
+a:visited{
+	color: gray;
+}
+a:hover{
+	color: #fffdf3;
+}
